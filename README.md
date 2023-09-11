@@ -1,1 +1,1 @@
-<h1>💻 30 Days of Code 💻</h1>
+<h1>💻 30 Days of JavaScript 💻</h1>
