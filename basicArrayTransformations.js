@@ -18,3 +18,11 @@ let filter = function(arr, fn) {
     return newArray;
  };
 
+//Array Reduce Transformation(Easy):
+let reduce = function(nums, fn, init) {
+    acc = init;  
+    for(let i = 0; i < nums.length; i += 1) {
+        acc = fn(acc, nums[i]);
+    };
+    return acc;
+};
