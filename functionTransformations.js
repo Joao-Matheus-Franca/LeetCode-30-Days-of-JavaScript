@@ -15,4 +15,3 @@
         args.forEach((a) => count += 1);
         return count;
     };
-
