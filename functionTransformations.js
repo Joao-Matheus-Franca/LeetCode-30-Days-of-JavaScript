@@ -9,4 +9,10 @@
         };
     };
 
-// 
+// Return Length of Arguments Passed(Easy):
+    let argumentsLength = function(...args) {
+        let count = 0;
+        args.forEach((a) => count += 1);
+        return count;
+    };
+
